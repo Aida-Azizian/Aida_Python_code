@@ -1,0 +1,23 @@
+#Rooms
+room Hall N-W Book
+room Kitchen E-S 
+room Storage E-N box
+room Bedroom S-W Bed
+room Dinning N-W Novel
+room Bathroom E-N key
+#Doors
+door N_S closed Hall Bedroom
+door N-S open Kitchen Storage 
+door N-S open Storage Bathroom
+door E-W closed Hall Storage
+door E-W closed Bedroom Kitchen
+door W-E open Bathroom Dinning
+door N-S locked Bathroom Storage
+#Items
+item box Storage STATIONARY
+item bed Bedroom STATIONARY
+item key Bathroom USE unlock Storage
+item book Hall READ is available
+item Novel Dinning READ is available
+#start
+start Hall
